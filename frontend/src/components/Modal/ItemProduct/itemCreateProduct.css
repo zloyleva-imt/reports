@@ -1,0 +1,30 @@
+.formGrup {
+  position: relative; }
+  .formGrup .inputGrup:focus, .formGrup .inputGrup:active {
+    outline: none;
+    border-color: #ced4da;
+    box-shadow: none; }
+  .formGrup .listOver {
+    width: calc(100% - 27px);
+    overflow: hidden;
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    right: 0;
+    z-index: 1; }
+    .formGrup .listOver .listGrup {
+      max-height: 250px;
+      margin: -3px -12px 0 0;
+      overflow: scroll;
+      overflow: hidden; }
+
+.productRow {
+  transition: .3s; }
+  .productRow .itemSet:hover .editIcon path {
+    transition: .3s;
+    fill: #228a22; }
+  .productRow .itemSet:hover .deleteIcon path {
+    transition: .3s;
+    fill: #8a050e; }
+
+/*# sourceMappingURL=itemCreateProduct.css.map */

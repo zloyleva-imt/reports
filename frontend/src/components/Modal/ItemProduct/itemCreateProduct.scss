@@ -1,0 +1,45 @@
+.formGrup {
+  position: relative;
+  .inputGrup {
+    &:focus, &:active {
+      outline: none;
+      border-color: #ced4da;
+      box-shadow: none;
+    }
+  }
+  .listOver {
+    width: calc(100% - 27px);
+    overflow: hidden;
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    right: 0;
+    z-index: 1;
+    .listGrup {
+      max-height: 250px;
+      margin: -3px -12px 0 0;
+      overflow: scroll;
+      overflow: hidden;
+    }
+  }
+}
+
+.productRow {
+  transition: .3s;
+  .itemSet {
+    &:hover {
+      .editIcon {
+        path {
+          transition: .3s;
+          fill: #228a22
+        }
+      }
+      .deleteIcon {
+        path {
+          transition: .3s;
+          fill: #8a050e
+        }
+      }
+    }
+  }
+}

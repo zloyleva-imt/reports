@@ -1,0 +1,23 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 12px;
+  right: 0;
+  z-index: 9999;
+  .logo{
+    background-color: #367fa9;
+    padding: 10px 0;
+    .text-center {
+      color: #fff;
+      font-size: 20px;
+      //line-height: 50px;
+      text-align: center;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+  .header-box{
+    background-color: #3c8dbc;
+  }
+}

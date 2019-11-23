@@ -1,0 +1,24 @@
+.itemHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 10px 0;
+  .exportBox, .addProdBox {
+    label {
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+}
+.table_item{
+  td{
+    .action{
+      color: #525252;
+      cursor: pointer;
+    }
+  }
+}
+.action{
+  color: #525252;
+  cursor: pointer;
+}

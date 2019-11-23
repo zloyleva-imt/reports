@@ -1,0 +1,37 @@
+.table_item,
+.newItem {
+  transition: .2s; }
+  .table_item .btnBox,
+  .newItem .btnBox {
+    transition: .2s; }
+  .table_item:hover,
+  .newItem:hover {
+    background-color: #e4e4e4; }
+  .table_item:hover .btnBox .action,
+  .newItem:hover .btnBox .action {
+    cursor: pointer; }
+  .table_item td .action,
+  .newItem td .action {
+    color: #525252;
+    cursor: pointer;
+    transition: .3s; }
+    .table_item td .action:hover,
+    .newItem td .action:hover {
+      color: #d7440b; }
+
+.newItem {
+  background-color: rgba(33, 218, 15, 0.13); }
+
+.pending {
+  background-color: rgba(255, 243, 205, 0.7); }
+
+.canceled {
+  background-color: rgba(248, 215, 218, 0.7); }
+
+.ready {
+  background-color: rgba(209, 236, 241, 0.7); }
+
+.done {
+  background-color: rgba(212, 237, 218, 0.7); }
+
+/*# sourceMappingURL=style.css.map */

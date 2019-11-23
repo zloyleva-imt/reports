@@ -1,0 +1,10 @@
+.workSpace {
+    margin-top: 54px;
+}
+.modal-dialog {
+    margin: 70px auto !important;
+}
+.modal-open .modal {
+    overflow: hidden;
+    opacity: 1;
+}

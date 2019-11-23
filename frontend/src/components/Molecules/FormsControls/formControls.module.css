@@ -1,0 +1,140 @@
+.formControl {
+    height: 38px;
+    transition: height .2s;
+    position: relative;
+}
+.formControlFile {
+    height: 38px;
+}
+.formControlFile input {
+    width: 300px !important;
+    height: 35px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: .5s;
+    outline: none;
+    box-shadow: none;
+}
+.formControlPhone {
+    height: 38px;
+    transition: height .2s;
+    position: relative;
+}
+.formControlArea {
+    height: 150px;
+    transition: height .2s;
+}
+.formControlSelect {
+    height: 90px;
+    transition: height .2s;
+}
+.formControl input{
+    width: 300px !important;
+    height: 35px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: .5s;
+    outline: none;
+    box-shadow: none;
+}
+
+.formControlPhone input{
+    width: 300px !important;
+    height: 35px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 0 10px 0;
+    transition: .5s;
+    outline: none;
+    box-shadow: none;
+}
+.formControlArea textarea{
+    width: 300px !important;
+    height: 150px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 0 10px;
+    resize: none;
+    outline: none;
+    box-shadow: none;
+}
+.formControl.error input,
+.formControlFile.error input,
+.formControlPhone.error input,
+.formControlArea.error textarea {
+    color: rgba(255, 0, 0, 0.65);
+    border: 1px solid rgba(255, 0, 0, 0.65);
+    box-shadow: 0 0 10px rgba(255, 0, 0, .3);
+    outline: none;
+}
+.formControl.error input::focus,
+.formControlFile.error input::focus,
+.formControlPhone.error input::focus,
+.formControlArea.error textarea::focus {
+    color: rgba(255, 0, 0, 0.65);
+    border: 1px solid rgba(255, 0, 0, 0.65);
+    box-shadow: 0 0 10px rgba(255, 0, 0, .3);
+}
+.formControl.error,
+.formControlFile.error,
+.formControlPhone.error {
+    height: 70px;
+}
+.formControlArea.error {
+    height: 180px;
+}
+.formControl span,
+.formControl p,
+.formControlPhone p,
+.formControlSelect span,
+.formControlFile span,
+.formControlFile p,
+.formControlArea span {
+    margin: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.formControlFile.error p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgba(255, 18, 7, 0.91);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transition: opacity 1s;
+}
+.formControl.error span,
+.formControl.error p,
+.formControlPhone.error p,
+.formControlSelect.error span,
+.formControlFile.error span,
+.formControlArea.error span {
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgba(255, 18, 7, 0.91);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transition: opacity 1s;
+}
+.css-yk16xz-control {
+    border-color: #959595 !important;
+}
+.label {
+    font-size: 14px !important;
+    transition: .5s;
+    text-transform: capitalize;
+}
+.label.error {
+    color: red;
+}
+.img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 40px;
+    padding-top: 10px;
+}
+.img img {
+    width: 25px;
+}
